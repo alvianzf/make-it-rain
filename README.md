@@ -25,8 +25,6 @@ yarn add make-it-rain
 ## 🛠️ Usage
 Initialize this life-changing formatter once, then flex on your ugly numbers forever.
 
-Initialize this life-changing formatter once, then flex on your ugly numbers forever.
-
 ```js
 const makeItRain = require("make-it-rain");
 
@@ -63,6 +61,4 @@ MIT – Because I'm not here to sue you.
 ## ⭐ Pro Tip
 Use this package and pretend you’re rich. You’re welcome.
 
-```yaml
-This README will **ensure** your package is taken *seriously* while also making people question their life choices. 🚀💸
-```
+This README will **ensure** your package is taken *seriously* while also making people question their life choices. 
