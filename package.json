@@ -1,0 +1,78 @@
+{
+  "name": "make-it-rain",
+  "version": "1.0.0",
+  "description": "Because who formats money manually like a peasant?",
+  "main": "index.js",
+  "bin": {
+    "env-validate": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "validate": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvianzf/make-it-rain.git"
+  },
+  "keywords": [
+    "money",
+    "currency",
+    "format",
+    "formatter",
+    "money",
+    "formatter",
+    "currency",
+    "formatter",
+    "thousands",
+    "separator",
+    "number",
+    "formatting",
+    "financial",
+    "finance",
+    "cash",
+    "make",
+    "it",
+    "rain",
+    "pretty",
+    "numbers",
+    "money",
+    "beautifier",
+    "currency",
+    "conversion",
+    "number",
+    "separator",
+    "accounting",
+    "economics",
+    "Intl",
+    "JavaScript",
+    "Node.js",
+    "backend",
+    "frontend",
+    "rich",
+    "vibes",
+    "flex",
+    "financial",
+    "elegance",
+    "stop",
+    "using",
+    "ugly",
+    "numbers",
+    "commas",
+    "vs",
+    "dots",
+    "why",
+    "is",
+    "money",
+    "so",
+    "complicated"
+  ],
+  "author": "Alvian Zachry Faturrahman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alvianzf/make-it-rain/issues"
+  },
+  "homepage": "https://github.com/alvianzf/make-it-rain#readme",
+  "dependencies": {
+    "currency-symbol-map": "^5.1.0"
+  }
+}
