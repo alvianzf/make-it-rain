@@ -36,6 +36,17 @@ console.log(money.makeItPretty(1234567.89)); // €1.234.567,89
 console.log(money.makeItPretty(99.99)); // €99,99
 console.log(money.makeItPretty(1000000)); // €1.000.000,00
 ```
+
+
+| Method | Description |
+|--------|-------------|
+|`makeItRain(currency, separator, useSymbol)` | Initializes the formatter once. Currency = any ISO currency code, separator = `,` or .`,` useSymbol = `true` for symbols (`$`), `false` for codes (`USD`). |
+| `makeItPretty(amount)` | Takes a number and makes it visually acceptable.|
+| `swapMoney(newCurrency)` | Change the currency to something else, because why not? |
+| `useWhat(symbol)` | Toggle between using currency symbols (`$`) or ISO codes (`USD`). |
+| `whatNow()` | Returns the current currency, in case you forgot. |
+
+
 ## 🎩 Features (That Should Have Existed in JavaScript Already)
 - One-time setup: Set currency & separator once, use it everywhere.
 - Formats numbers beautifully: Because nobody likes reading 1000000.00.
@@ -46,13 +57,6 @@ console.log(money.makeItPretty(1000000)); // €1.000.000,00
 - Convert currency: This isn't a forex exchange, buddy.
 - Fix your bad financial decisions: Your debt is still your problem.
 - Magically make you rich: But hey, your numbers will look expensive.
-
-## 
-
-| Method | Description |
-|--------|-------------|
-|`makeItRain(currency, separator)` | Initializes the formatter once. Currency = any ISO currency code, separator = `,` or `.` |
-| `makeItPretty(amount)` | Takes a number and makes it visually acceptable.|
 
 ## 🏆 Contributing
 Want to contribute? Cool. Fork it, break it, fix it, and submit a PR.
