@@ -1,6 +1,6 @@
 {
   "name": "make-it-rain",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Because who formats money manually like a peasant?",
   "main": "index.js",
   "bin": {
