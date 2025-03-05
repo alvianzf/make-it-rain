@@ -1,5 +1,5 @@
 # 💸 make-it-rain 💸  
-[![Version](https://img.shields.io/badge/version-1.1.0-blue)](https://npmjs.com/package/make-it-rain) [![Node.js](https://img.shields.io/badge/node-%3E%3D12.0-brightgreen)](https://nodejs.org/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Version](https://img.shields.io/badge/version-1.1.1-blue)](https://npmjs.com/package/make-it-rain) [![Node.js](https://img.shields.io/badge/node-%3E%3D12.0-brightgreen)](https://nodejs.org/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ### The Only Money Formatter You'll Ever Need (Probably)  
 
