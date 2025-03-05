@@ -27,14 +27,15 @@ yarn add make-it-rain
 ## 🛠️ Usage
 Initialize this life-changing formatter once, then flex on your ugly numbers forever.
 
+
 ```js
-const makeItRain = require("make-it-rain");
+const makeItRain = require("make-it-rain");  
 
-const money = makeItRain("EUR", "."); // Set it and forget it
+const money = makeItRain("EUR", ".", true); // Set it and forget it  
 
-console.log(money.makeItPretty(1234567.89)); // €1.234.567,89
-console.log(money.makeItPretty(99.99)); // €99,99
-console.log(money.makeItPretty(1000000)); // €1.000.000,00
+console.log(money.makeItPretty(1234567.89)); // €1.234.567,89  
+money.useWhat(false); // Switch to ISO code mode  
+console.log(money.makeItPretty(1234567.89)); // EUR 1.234.567,89  
 ```
 
 
